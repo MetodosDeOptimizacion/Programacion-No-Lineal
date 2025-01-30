@@ -32,8 +32,6 @@ with col1:
     # Caja de texto para la función
     func_input = st.text_input('Ingresa una función (ejemplo: x**2, x**3, sin(x), cos(x)):', 'x**2')
 
-with col2:
-
 # Convierte la entrada a una función simbólica
 x = sp.symbols('x')
 try:

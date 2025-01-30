@@ -33,8 +33,6 @@ with col1:
     func_input = st.text_input('Ingresa una función (ejemplo: x**2, x**3, sin(x), cos(x)):', 'x**2')
 
 with col2:
-    # Imagen personalizada (usando la ruta local que proporcionaste)
-    st.image("images/images.jpg", width=100)
 
 # Convierte la entrada a una función simbólica
 x = sp.symbols('x')

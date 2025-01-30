@@ -34,7 +34,7 @@ with col1:
 
 with col2:
     # Imagen personalizada (usando la ruta local que proporcionaste)
-    st.image("C:/Users/VICTUS/Documents/U-FINESI/NivelacionOptimizacion/ProgramacionNoLineal/images.jpg", width=100)
+    st.image("images/images.jpg", width=100)
 
 # Convierte la entrada a una función simbólica
 x = sp.symbols('x')
